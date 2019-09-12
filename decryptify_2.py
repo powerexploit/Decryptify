@@ -31,7 +31,7 @@ art = RED \
 print(art)
 
 url = "https://www.hackthebox.eu/api/invite/generate"
-headers = {'User-agent': 'My User Agent 1.0'}
+headers = {'User-Agent': 'My User Agent 1.0'}
 res = requests.post(url,headers=headers)
 data = json.loads(res.text)
 encoded_data = data['data']['code'].encode("utf-8")
