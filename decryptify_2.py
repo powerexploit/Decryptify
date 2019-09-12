@@ -30,7 +30,7 @@ art = RED \
     + END
 print(art)
 
-url = "https:/www.hackthebox.eu/api/invite/generate"
+url = "https://www.hackthebox.eu/api/invite/generate"
 headers = {'User-agent': 'My User Agent 1.0'}
 res = requests.post(url,headers=headers)
 data = json.loads(res.text)
