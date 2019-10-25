@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-#generator for hackhebox invite code
-#exmple: python hackthebox.py 
+# generator for hackhebox invite code
+# exmple: python hackthebox.py 
 import base64
 from os import system
 RED = '\033[31m'
